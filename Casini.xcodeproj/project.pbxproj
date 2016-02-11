@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FADCC9261C6BC1A700035167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC9251C6BC1A700035167 /* AppDelegate.swift */; };
-		FADCC9281C6BC1A700035167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC9271C6BC1A700035167 /* ViewController.swift */; };
 		FADCC92B1C6BC1A700035167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCC9291C6BC1A700035167 /* Main.storyboard */; };
 		FADCC92D1C6BC1A700035167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADCC92C1C6BC1A700035167 /* Assets.xcassets */; };
 		FADCC9301C6BC1A700035167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADCC92E1C6BC1A700035167 /* LaunchScreen.storyboard */; };
 		FADCC93B1C6BC1A700035167 /* CasiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC93A1C6BC1A700035167 /* CasiniTests.swift */; };
 		FADCC9461C6BC1A700035167 /* CasiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC9451C6BC1A700035167 /* CasiniUITests.swift */; };
+		FADCC9541C6BC1FA00035167 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC9531C6BC1FA00035167 /* ImageViewController.swift */; };
+		FADCC9561C6BC69100035167 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCC9551C6BC69100035167 /* DemoURL.swift */; };
+		FAF18B0B1C6D06390025A9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF18B0A1C6D06390025A9C4 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FADCC9221C6BC1A700035167 /* Casini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADCC9251C6BC1A700035167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FADCC9271C6BC1A700035167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FADCC92A1C6BC1A700035167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FADCC92C1C6BC1A700035167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADCC92F1C6BC1A700035167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		FADCC9411C6BC1A700035167 /* CasiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADCC9451C6BC1A700035167 /* CasiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasiniUITests.swift; sourceTree = "<group>"; };
 		FADCC9471C6BC1A700035167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADCC9531C6BC1FA00035167 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FADCC9551C6BC69100035167 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		FAF18B0A1C6D06390025A9C4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				FADCC9251C6BC1A700035167 /* AppDelegate.swift */,
-				FADCC9271C6BC1A700035167 /* ViewController.swift */,
 				FADCC9291C6BC1A700035167 /* Main.storyboard */,
+				FAF18B0A1C6D06390025A9C4 /* ViewController.swift */,
+				FADCC9531C6BC1FA00035167 /* ImageViewController.swift */,
+				FADCC9551C6BC69100035167 /* DemoURL.swift */,
 				FADCC92C1C6BC1A700035167 /* Assets.xcassets */,
 				FADCC92E1C6BC1A700035167 /* LaunchScreen.storyboard */,
 				FADCC9311C6BC1A700035167 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADCC9281C6BC1A700035167 /* ViewController.swift in Sources */,
+				FADCC9561C6BC69100035167 /* DemoURL.swift in Sources */,
+				FADCC9541C6BC1FA00035167 /* ImageViewController.swift in Sources */,
+				FAF18B0B1C6D06390025A9C4 /* ViewController.swift in Sources */,
 				FADCC9261C6BC1A700035167 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				FADCC94C1C6BC1A700035167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADCC94D1C6BC1A700035167 /* Build configuration list for PBXNativeTarget "CasiniTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				FADCC94F1C6BC1A700035167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADCC9501C6BC1A700035167 /* Build configuration list for PBXNativeTarget "CasiniUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				FADCC9521C6BC1A700035167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
