@@ -102,17 +102,23 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2V-Rp-ocl">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="eMr-ha-fqE">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="D2V-Rp-ocl" secondAttribute="trailing" id="ENE-b8-Adu"/>
-                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="leading" secondItem="WDP-nd-uTe" secondAttribute="leading" id="hxK-pK-EZB"/>
-                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="top" secondItem="WDP-nd-uTe" secondAttribute="top" id="i6m-kq-5bz"/>
-                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="bottom" secondItem="7qI-Zb-4jm" secondAttribute="top" id="lxc-R2-UOb"/>
+                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="bottom" secondItem="7qI-Zb-4jm" secondAttribute="top" id="14Z-Vh-M8z"/>
+                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="top" secondItem="WDP-nd-uTe" secondAttribute="top" id="1cA-Oj-lgh"/>
+                            <constraint firstItem="eMr-ha-fqE" firstAttribute="centerX" secondItem="WDP-nd-uTe" secondAttribute="centerX" id="5Uy-uP-6Vp"/>
+                            <constraint firstItem="eMr-ha-fqE" firstAttribute="centerY" secondItem="WDP-nd-uTe" secondAttribute="centerY" id="WBs-1b-d0W"/>
+                            <constraint firstItem="D2V-Rp-ocl" firstAttribute="leading" secondItem="WDP-nd-uTe" secondAttribute="leading" id="bW0-gM-oGb"/>
+                            <constraint firstAttribute="trailing" secondItem="D2V-Rp-ocl" secondAttribute="trailing" id="yAL-Pd-We0"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="D2V-Rp-ocl" id="ESd-Xw-5aV"/>
+                        <outlet property="spinner" destination="eMr-ha-fqE" id="fHS-3A-lvp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cey-oM-YJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
